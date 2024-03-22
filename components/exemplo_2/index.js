@@ -5,8 +5,13 @@ import { View, Text} from 'react-native';
 function Exemplo2 (){ 
     return(
         <View style={styles.container}>
-            <Text>Exemplo2 </Text>
-        </View>
+            <Text style={styles.titulo}>Exemplo2 </Text>
+    
+            <View style={styles.viewmensagem}>
+                <Text style={styles.mensagem}> Olá</Text>
+            </View>
+
+       </View> 
     );
 }
 
