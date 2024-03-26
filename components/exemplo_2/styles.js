@@ -2,8 +2,9 @@ import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
     container: {
-        backgroundColor:'#fff',
+        backgroundColor:'#a56bd1',
         flex: 1,
+        height:'100%',
         width: '100%',
         borderRadius: 20,
         alignItems: 'center',
@@ -19,7 +20,12 @@ const styles = StyleSheet.create({
   mensagem: {
     fontSize: 20,
     margin: 10,
-    color:'#eebaf5',
+    color:'#6f1a7a',
+  },
+  viewmensagem: {
+     borderWidth: 2,
+     borderColor: '#6f1a7a',
+     borderRadius: 20,
   },
   
 });
