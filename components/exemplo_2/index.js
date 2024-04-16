@@ -9,10 +9,12 @@ function Exemplo2 (){
         <View style={styles.container}>
             <Text style={styles.titulo}>Exemplo2 </Text>
         
-            <Mensagem/>
+            <Mensagem nome='Lara'/>
+            <Mensagem sobrenome='Romero'/>
+            <Mensagem sobrenome='Linda'/>
 
        </View> 
     );
-}
+} 
 
 export default Exemplo2;
