@@ -20,9 +20,12 @@ const styles= StyleSheet.create({
         color:'purple',
     },
     viewmensagem:{
-        borderWidth:4,
+        borderWidth:2,
         borderColor:'#733ba1',
         borderRadius:20,
+        marginBottom:10,
+        width:'90%',
+        borderBottomWidth:2,
     },
 });
 
