@@ -5,6 +5,8 @@ const styles = StyleSheet.create({
         flex:1,
         backgroundColor: '#D1C4E9',
         borderRadius:20,
+        width:'100%',
+        alignItems:'center',
     },
     
     titulo:{
@@ -12,6 +14,15 @@ const styles = StyleSheet.create({
         fontWeight:'bold',
         marginVertical:20,
         color: '#310f4d',
+        
+    },
+
+    botao:{
+        borderWidth: 3,
+        padding:10,
+        width:'80%',
+        borderRadius:20,
+        alignItems:'center',
     },
 });
 

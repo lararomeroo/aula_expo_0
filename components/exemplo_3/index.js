@@ -2,13 +2,15 @@ import {View, Text, Pressable } from 'react-native';
 
 import styles from './styles';
 
-export default function Exemplo_3 (){
+function Exemplo_3 (){
     return(
         <View style ={styles.container}>
             <Text style = {styles.titulo}> Exemplo 3</Text>
-            <Pressable>
-               <Text> Ex. botão </Text>
+            <Pressable onPress={() => alert('linda')} style ={styles.botao}>
+               <Text> lara </Text>
              </Pressable>
         </View>
     );
 }
+
+export default Exemplo_3;
