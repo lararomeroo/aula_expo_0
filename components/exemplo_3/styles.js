@@ -23,6 +23,21 @@ const styles = StyleSheet.create({
         width:'80%',
         borderRadius:20,
         alignItems:'center',
+        borderColor: '#310f4d',
+    },
+
+    txtbotao:{
+        fontSize: 25,
+        color: '#733ba1',
+    },
+
+    botaopress:{
+        backgroundColor: '#733ba1'
+    },
+
+    txtpress:{
+        fontSize:25,
+        color: '#733ba1'
     },
 });
 
