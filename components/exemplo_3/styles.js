@@ -39,6 +39,12 @@ const styles = StyleSheet.create({
         fontSize:25,
         color: '#733ba1'
     },
+
+    txtNumero:{
+        fontSize: 35,
+        color: '#733ba1',
+        marginVertical: 10,
+    },
 });
 
 export default styles;
