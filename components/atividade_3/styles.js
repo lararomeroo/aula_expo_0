@@ -12,19 +12,20 @@ const styles = StyleSheet.create({
     container2:{
         display: 'flex',
         flexDirection: 'row',
+        width: '15%',
     },
     titulo:{
         fontSize:30,
         fontWeight:'bold',
         marginVertical:20,
         color: '#310f4d',
-        
+       
     },
 
     botao:{
         borderWidth: 3,
         padding:10,
-        width:'50%',
+        width:'40%',
         borderRadius:20,
         alignItems:'center',
         borderColor: '#310f4d',
@@ -34,10 +35,11 @@ const styles = StyleSheet.create({
     txtbotao:{
         fontSize: 25,
         color: '#733ba1',
+        
     },
 
     botaopress:{
-        backgroundColor: '#733ba1'
+        backgroundColor: '#733ba1',
     },
 
     txtpress:{
