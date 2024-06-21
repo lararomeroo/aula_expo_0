@@ -48,7 +48,7 @@ const styles = StyleSheet.create({
     },
 
     txtNumero:{
-        fontSize: 25,
+        fontSize: 35,
         color: '#733ba1',
         marginVertical: 10,
     },

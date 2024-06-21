@@ -19,7 +19,7 @@ function Atividade_3() {
 
     return (
         <View style={styles.container}>
-            <Text style={styles.titulo}> Atividade 3</Text>
+            <Text style={styles.titulo}> Contador </Text>
 
             <View style={styles.container2}>
             <Pressable
